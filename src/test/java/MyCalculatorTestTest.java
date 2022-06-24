@@ -1,23 +1,23 @@
-import classroomSix.Calculator;
+import classroomSix.MyCalculator;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class CalculatorTest {
+public class MyCalculatorTestTest {
 
-    Calculator calculator;
+    MyCalculator myCalculator;
 
     @BeforeTest
     public void pirmsTesta(){
         System.out.println("Sākās tests");
-        calculator = new Calculator();
+        myCalculator = new MyCalculator();
     }
 
     @Test
     public void testSum(){
         System.out.println("Šis ir mans pirmais TestNG tests!");
 
-        int actualResult = calculator.sum(13,25);
+        int actualResult = myCalculator.sum(13,25);
         int expectedResult = 38;
         Assert.assertEquals(actualResult, expectedResult);
     }
@@ -25,7 +25,7 @@ public class CalculatorTest {
     @Test
     public void testMultiply(){
 
-        Assert.assertEquals(calculator.multiply(5,5),25);
+        Assert.assertEquals(myCalculator.multiply(5,5),25);
     }
 
 
