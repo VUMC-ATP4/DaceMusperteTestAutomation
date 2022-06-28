@@ -1,3 +1,5 @@
+package classroomSix;
+
 public class Calculator {
     int result;
 

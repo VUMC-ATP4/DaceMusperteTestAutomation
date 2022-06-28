@@ -1,9 +1,10 @@
-import classroomSix.MyCalculator;
+package classroomSix;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class MyCalculatorTestTest {
+public class MyCalculatorTest {
 
     MyCalculator myCalculator;
 
