@@ -8,7 +8,8 @@ public class InventoryPage {
     public WebDriver driver;
     private By pageTitle = By.cssSelector("div[id='header_container'] span[class='title']");
     private By linkedinLink = By.linkText("LinkedIn");
-
+    private By facebook = By.linkText("Facebook");
+    private By twitter = By.linkText("Twitter");
 
 
     public InventoryPage(WebDriver driver) {
@@ -22,5 +23,10 @@ public class InventoryPage {
     public WebElement getLinkedinLink(){
         return driver.findElement(linkedinLink);
     }
-
+    public WebElement getfacebook(){
+        return driver.findElement(facebook);
+    }
+    public WebElement gettwitter(){
+        return driver.findElement(twitter);
+    }
 }
