@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b0e709-18b8-4b50-875d-6287fe2ebdee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/acodemyShop/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomEight/AcodemyShopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CucumberScenarioOutlineExample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SourceLabLogIn.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classroomSix/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classroomSix/FirstSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,20 @@
       <recent name="pageObjectsHomework" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Successful login">
+  <component name="RunManager" selected="Application.MavenTest">
+    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
+      <module name="DaceMusperteTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SourceLabLogIn.feature" />
@@ -108,26 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User sees error message if username &amp; password empty" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SourceLabLogIn.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DaceMusperteTestAutomation" />
-      <option name="NAME_FILTER" value="^User sees error message if username \&amp; password empty$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees error message if username \&amp; password empty$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User sees error message if username &amp; password empty" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: User sees error message if username empty" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SourceLabLogIn.feature" />
@@ -137,26 +122,6 @@
       <option name="NAME_FILTER" value="^User sees error message if username empty$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees error message if username empty$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User sees error message if username empty" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User sees error message if wrong credentials are provided" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SourceLabLogIn.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DaceMusperteTestAutomation" />
-      <option name="NAME_FILTER" value="^User sees error message if wrong credentials are provided$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees error message if wrong credentials are provided$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User sees error message if wrong credentials are provided" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -179,13 +144,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DaceMusperteTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MavenTest" />
+        <item itemvalue="TestNG.CalculatorTest" />
         <item itemvalue="Cucumber Java.Scenario: Successful login" />
         <item itemvalue="Cucumber Java.Scenario: User sees error message if username empty" />
         <item itemvalue="Cucumber Java.Scenario: User sees error message if password empty" />
-        <item itemvalue="Cucumber Java.Scenario: User sees error message if username &amp; password empty" />
-        <item itemvalue="Cucumber Java.Scenario: User sees error message if wrong credentials are provided" />
       </list>
     </recent_temporary>
   </component>

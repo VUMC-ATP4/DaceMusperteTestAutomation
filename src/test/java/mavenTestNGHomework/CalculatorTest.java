@@ -2,6 +2,7 @@ package mavenTestNGHomework;
 
 import classroomSix.Calculator;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -14,6 +15,11 @@ public class CalculatorTest {
     public void pirmsTesta(){
         System.out.println("Sākās tests");
         calculator = new Calculator();
+    }
+
+    @AfterTest
+    public void pecTesta(){
+        System.out.println("Tests beidzās");
     }
 
     @Test
